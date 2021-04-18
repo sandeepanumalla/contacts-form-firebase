@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.section_2{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap:1rem;
+  width:100%;
+
+}
+
+.second_input{
+  display:flex;
+
+}
